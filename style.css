@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+}
+#hero.content{
+
+    /* Frame 1 */
+position: static;
+width: 998px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
