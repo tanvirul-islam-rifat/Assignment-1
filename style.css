@@ -1,7 +1,33 @@
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
 }
+
+
+
+/* Shared */
+.clr{
+    color: #0D1321;
+}
+.btn{
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
 
 
 #hero{
@@ -9,8 +35,8 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    width: 1440px;
-    height: 652px;
+    width:100%;
+    height: 100%;
     left: 0;
     right: 0;
     top: 131px;
@@ -36,4 +62,22 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 32px 0px;
+}
+
+#upper-head{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#name{
+    padding: 40px 918px 0px 120px;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0px;
+}
+#DR{
+    padding: 38px 120px 0px 825px;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0px;
 }
