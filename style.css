@@ -38,7 +38,7 @@
 
 
 #hero{
-    background-image: url("../assets/Hero-bg.png");
+    background-image: url("assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
     max-width:100%;
